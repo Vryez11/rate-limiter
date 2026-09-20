@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+ratelimit:
+  enabled: true
+  limit: 5            # 윈도 하나에 허용하는 요청 수
+  window: 10s
+  alignment: epoch    # epoch | first-request
+
+# 필터의 요청별 로그(key, allowed, remaining, remotePort, thread)를 보려면 DEBUG로 올린다
+logging:
+  level:
+    com.vryez.ratelimiter: INFO

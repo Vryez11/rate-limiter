@@ -1,0 +1,19 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+.DS_Store
+
+### 실험 중 생기는 임시 파일 (결과 원문은 experiments/results/에 남긴다) ###
+experiments/.tmp/
